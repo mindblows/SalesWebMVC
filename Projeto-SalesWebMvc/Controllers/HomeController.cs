@@ -13,7 +13,8 @@ namespace Projeto_SalesWebMvc.Controllers {
         }
 
         public IActionResult About() {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Salles Web MVC App.";
+            ViewData["dev"] = "m1nd";
 
             return View();
         }
