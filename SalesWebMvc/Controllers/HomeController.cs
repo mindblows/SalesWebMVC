@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Projeto_SalesWebMvc.Models;
+using SalesWebMvc.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Projeto_SalesWebMvc.Controllers {
+namespace SalesWebMvc.Controllers {
     public class HomeController : Controller {
         public IActionResult Index() {
             return View();

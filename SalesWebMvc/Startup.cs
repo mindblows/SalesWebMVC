@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Projeto_SalesWebMvc {
+namespace SalesWebMvc {
     public class Startup {
         public Startup(IConfiguration configuration) {
             Configuration = configuration;
